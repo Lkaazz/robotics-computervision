@@ -1,0 +1,19 @@
+Nome: Lucas da Silva Carvalho
+Título: Definição de trajetória robótica usando visão computacional: um modelo
+baseado por identificação de marcadores de sinalização com aplicação em Teoria
+dos Grafos
+Resumo: Este trabalho apresenta o desenvolvimento de um sistema de navegação robótica
+autônoma baseado em visão computacional, utilizando marcadores de sinalização como
+referência para tomada de decisão. A pesquisa propõe uma solução para o desafio da
+navegabilidade robótica autônoma através da combinação de técnicas de deep learning para
+reconhecimento visual e algoritmos de Teoria dos Grafos para otimização de trajetórias. O
+sistema implementa um modelo de reconhecimento visual utilizando YOLO v8, treinado com
+um dataset personalizado de placas de sinalização desenvolvidas para este projeto. O sistema
+utiliza uma câmera, processando em tempo real imagens para detectar marcadores como
+"Reto", "Direita", "Esquerda" e "Pare". A tomada de decisão sobre a trajetória é realizada
+através do algoritmo de Dijkstra, que determina o caminho mais eficiente entre os pontos com
+base em um grafo dinâmico. A metodologia incluiu o desenvolvimento de marcadores visuais
+padronizados, criação de um dataset personalizado, treinamento no modelo YOLO v8,
+implementação do sistema em Python e testes em quatro cenários distintos.
+Orientador: Prof. Dr. Glauber da Rocha Balthazar
+Mês/Ano: Junho de 2025
